@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: none;
+
+}
+
+/* .container {
+    max-width: 80%;
+} */
+
+
+/* header */
+
+header {
+    background: #fffcfc;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 120px;
+}
+
+.header__nav ul {
+    display: flex;
+    column-gap: 40px;
+}
+
+.header__nav ul li a {
+    font-size: 19px;
+    letter-spacing: 0.4px;
+    color: #292F36;
+    transition: .5s;
+}
+
+.header__nav ul li a:hover {
+    color: #CDA274;
+}
+
+/* header */
+
+/* section---start */
+/* main */
+
+#main {
+    background-image: url('./img/main.png');
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.main__container {
+    /* height: 100%; */
+}
+
+.main__wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 12% 110px;
+    justify-content: center;
+}
+
+.main__wrap h1 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 72px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+
+.main__wrap p {
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+.main__wrap button {
+    display: flex;
+    justify-content: center;
+
+    background: #292F36;
+    border: 2px solid #292F36;
+    border-radius: 18px;
+    width: 114px;
+    padding: 15px 0px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* main */
+
+/* section---end */
