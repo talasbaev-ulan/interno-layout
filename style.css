@@ -162,7 +162,69 @@ header {
     padding-top: 70px;
 }
 
-
 /* section__transtion end */
+/* setion__estimate start */
+.section__estimate {
+    padding: 0px 0px 140px 0px;
+}
+
+.estimate__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px;
+}
+
+
+
+
+
+.estimate__text h2 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 65px;
+    color: #292F36;
+    margin: 42px 84px 0px 0px;
+}
+
+.estimate__text p:nth-child(2) {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #4D5053;
+    margin-top: 42px;
+}
+
+.phone {
+    margin-top: 46px;
+}
+
+.phone__text p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4D5053;
+    margin: 10px 0px 0px 20px;
+}
+
+.estimate__text button {
+    width: 263px;
+    height: 71px;
+    background: #292F36;
+    border: 2px solid #292F36;
+    border-radius: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: 68px;
+}
+
+.estimate__text .phone {
+    display: flex;
+    /* justify-content: center; */
+}
+
+/* section__estimate end */
 
 /* section---end */
