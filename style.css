@@ -451,4 +451,29 @@ header {
 }
 
 /* section__grade end */
+/* section__blogs start */
+.section__blogs {
+    margin-top: 143px;
+}
+
+.section__blogs h1 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    color: #292F36;
+}
+
+.section__blogs p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    margin: 21px 0px 70px 0px;
+
+}
+
+/* section__blogs end */
 /* section---end */
