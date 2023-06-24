@@ -402,7 +402,7 @@ header {
     font-size: 24px;
     line-height: 38px;
     color: #292F36;
-    padding: 24px 100px 0px 0px;
+    padding: 24px 89px 0px 0px;
 }
 
 .projects__text p {
@@ -417,4 +417,38 @@ header {
 }
 
 /* section__projects end */
+/* .section__grade start */
+.section__grade {
+    margin-top: 140px;
+}
+
+.grade__wrap {
+    width: 100%;
+    height: 475px;
+    background: #F4F0EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
+}
+
+
+.grade__wrap p:nth-child(1) {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 128px;
+    text-align: center;
+    color: #CDA274;
+}
+
+.grade__wrap p:nth-child(2) {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    color: #4D5053;
+}
+
+/* section__grade end */
 /* section---end */
