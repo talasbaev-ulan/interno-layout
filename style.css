@@ -522,4 +522,136 @@ header {
 }
 
 /* section__blogs end */
+/* section__consultation start */
+.section__consultation {
+    margin: 141px 0px 129px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.consultation__box {
+    width: 1200px;
+    height: 414px;
+    background: #292F36;
+    border-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.consultation__box h1 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+.consultation__box p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+    padding-bottom: 31px;
+}
+
+.consultation__box button {
+    width: 241px;
+    height: 71px;
+    background: #CDA274;
+    border: 2px solid #CDA274;
+    box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+/* section__consultation end */
 /* section---end */
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer__box h2 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    color: #292F36;
+    padding-bottom: 21px;
+}
+
+.footer__box p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #4D5053;
+    padding-top: 30px;
+
+}
+
+.footer__box {
+    display: flex;
+    padding-bottom: 111px;
+    /* justify-content: center; */
+}
+
+.footer__applications {
+    padding-right: 83px;
+}
+
+.footer__applications p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #4D5053;
+    padding: 25px 0px 30px 0px;
+}
+
+
+.applications svg {
+    margin-right: 40px;
+}
+
+.footer__pages {
+    padding-right: 113px;
+}
+
+.footer__explore {
+    padding-right: 110px;
+}
+
+.footer__end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 104px;
+    border-top: 1px solid #E5E5E5;
+}
+
+.footer_end p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #4D5053;
+}
+
+.footer__end span {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #CDA274;
+}
+
+/* footer */
+
+/* footer */
